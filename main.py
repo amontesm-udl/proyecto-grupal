@@ -6,6 +6,7 @@ def main():
     print(test.saludoAlejandroMontes())
     
     #Realiza aqui tu prueba 
+    print(test.reemplazarEspacios('Hola Mundo', '-'))
     
     
 if __name__ == '__main__':
