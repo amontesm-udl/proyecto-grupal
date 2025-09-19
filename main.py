@@ -6,7 +6,8 @@ def main():
     print(test.saludoAlejandroMontes())
     
     #Realiza aqui tu prueba 
-    
+    numero = 4
+    print(f"¿{numero} es par?:",test.esPar(numero))
     
 if __name__ == '__main__':
     main()
