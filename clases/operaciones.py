@@ -7,9 +7,8 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     #Implementar aqui tu metodo
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
+    
+    def ordenarLista(self, lista):
+        return sorted(lista)
 
 
