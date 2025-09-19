@@ -1,6 +1,6 @@
 Utilizando la clase Operaciones, realizar la operación asignada.
 De igual manera deberás realizar la prueba correspondiente en el archivo main.py
-
+ 
 Nombre                  |   Operación
 -----------------------------------------------------------------------------
 Edwin                   | maximo(lista) -> Regresa el número mayor de la lista
