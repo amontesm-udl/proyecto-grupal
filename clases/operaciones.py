@@ -7,9 +7,7 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     #Implementar aqui tu metodo
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
+    def potencia(self,n1,n2):
+        return n1**n2
 
 
