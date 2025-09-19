@@ -4,12 +4,15 @@ class Operaciones:
         self.alejandroMontes = "Alejandro Montes"
 
     def saludoAlejandroMontes(self):
-        return "Mi nombre es " + self.alejandroMontes
+        return "Mi nombre es Juan Antonio Montalvo Ramirez " + self.alejandroMontes
 
     #Implementar aqui tu metodo
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
+    #Regresar True si el número es par False en caso contrario
+    def esPar(self, numero):
+        if numero % 2 == 0:
+            return True
+        else:
+            return False
+
 
 
