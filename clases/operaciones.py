@@ -1,3 +1,5 @@
+import math
+
 class Operaciones:
     
     def __init__(self):
@@ -7,6 +9,9 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     #Implementar aqui tu metodo
+    def raizCuadrada(n):
+        return math.sqrt(n)
+
     '''
     def operacionAsignada(self):
         #Realizar la operacion asignada
