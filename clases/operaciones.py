@@ -1,3 +1,5 @@
+import numpy as np
+
 class Operaciones:
     
     def __init__(self):
@@ -6,10 +8,10 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
-    #Implementar aqui tu metodo
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
+    # Implementar aqui tu metodo
+    def promedio(self, lista):
+        return np.average(lista)
+
+        
 
 
