@@ -9,6 +9,17 @@ class Operaciones:
 
 
     #Implementar aqui tu metodo
+
+    def eliminarDuplicados(self, lista):
+        listaSinDuplicados = []
+        vistos = set()
+        for elemento in lista:
+            if elemento not in vistos:
+                listaSinDuplicados.append(elemento)
+                vistos.add(elemento)
+        return listaSinDuplicados
+
+
     def raizCuadrada(n):
         return math.sqrt(n)
 
@@ -16,6 +27,7 @@ class Operaciones:
     def operacionAsignada(self):
         #Realizar la operacion asignada
     ''' 
+
 
 
     def generarTablaMultiplicar(self, numero: int):

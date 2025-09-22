@@ -15,6 +15,9 @@ def main():
 
     print(test.potencia(2,3))
     
+    resultado = test.eliminarDuplicados([1,2,2,3,4,5,6,7,8,8,9,10])
+    print("La lista de números sin duplicados es:", resultado)
+
     resultado = raizCuadrada(25)
     print(f"La raíz cuadrada de {numero} es {resultado}")
 
@@ -26,6 +29,7 @@ def main():
 
     lista = [3.5, -12, 7, 0.8, -3.14, 22, -19.6, 5.5, 13, -0.75, 9.1, 4, -7, 11.11, -2, 6.66, 18, 201, 6001, -0.33, 2.2, -8.8, 0, 10, -1.5, 1.1, -20]
     print(test.ordenarLista(lista))
+
 
 
 if __name__ == '__main__':
