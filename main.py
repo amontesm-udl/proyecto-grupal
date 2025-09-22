@@ -7,6 +7,8 @@ def main():
     
     #Realiza aqui tu prueba 
 
+    print(test.potencia(2,3))
+    
     lista = [5, 3, 9, 1, 4]
     print("La lista es:", lista)
     print("El número menor es:", test.minimo(lista))

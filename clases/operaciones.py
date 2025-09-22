@@ -8,6 +8,10 @@ class Operaciones:
 
     #Implementar aqui tu metodo
 
+    def potencia(self,n1,n2):
+        return n1**n2
+
+
     def minimo(self, lista):
         """
         Realizar la operacion asignada
