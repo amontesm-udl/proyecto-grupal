@@ -71,6 +71,19 @@ class Operaciones:
     
     def ordenarLista(self, lista):
         return sorted(lista)
+    
+    def factorial(self, n):
+        """
+        Calcula el factorial de un número entero no negativo.
+        """
+        if n < 0:
+            raise ValueError("El número no puede ser negativo")
+        if n == 0 or n == 1:
+            return 1
+        resultado = 1
+        for i in range(2, n + 1):
+            resultado *= i
+        return resultado
 
 
 
