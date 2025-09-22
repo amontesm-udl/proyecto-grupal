@@ -36,6 +36,12 @@ class Operaciones:
     def ordenarLista(self, lista):
         return sorted(lista)
 
+    def positivoNegativo(self, n: int) -> str:
+        """
+        Regresa 'Negativo' si n < 0, 'Positivo' si n >= 0.
+        """
+        return "Negativo" if n < 0 else "Positivo"
 
 
-        
+
+
