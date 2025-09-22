@@ -6,6 +6,8 @@ def main():
     print(test.saludoAlejandroMontes())
     
     #Realiza aqui tu prueba 
+    resultado = test.restaEnriqueVelez(10, 4)
+    print(f"La resta de 10 - 4 es: {resultado}")
     
     
 if __name__ == '__main__':
