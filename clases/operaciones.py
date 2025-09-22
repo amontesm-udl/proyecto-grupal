@@ -8,6 +8,13 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
 
+    def contarPalabraEnTexto(self, texto, palabra):
+        texto = texto.lower()
+        palabra = palabra.lower()
+        palabras = texto.split()
+        return palabras.count(palabra)
+
+
     # Implementar aqui tu metodo
     def resta(self, n1, n2):
         # Realizar la operación asignada (resta de dos números)
@@ -33,6 +40,7 @@ class Operaciones:
     def operacionAsignada(self):
         #Realizar la operacion asignada
     ''' 
+
 
 
 

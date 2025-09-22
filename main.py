@@ -6,6 +6,7 @@ def raizCuadrada(n):
 
 def main():
     # No cambiar estas lineas
+
     test = Operaciones()
     print(test.saludoAlejandroMontes())
 
@@ -15,6 +16,12 @@ def main():
 
     print(test.potencia(2,3))
     
+
+    # Realiza aquí tu prueba
+    repeticiones = test.contarPalabraEnTexto("hola mundo hola", "hola")
+    print(f"Las palabras que se repiten son {repeticiones}")
+
+
 
     #Realiza aqui tu prueba 
     resultado = test.resta(10, 4)
@@ -41,4 +48,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
