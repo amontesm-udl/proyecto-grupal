@@ -15,6 +15,12 @@ def main():
 
     print(test.potencia(2,3))
     
+    # Prueba con un número par
+    print(f"10: {test.esImpar(10)}")   
+    
+    # Prueba con un número impar
+    print(f"7: {test.esImpar(7)}")    
+    
     # Realiza aqui tu prueba
     lista = [10, 20, 30, 40, 50]
     print("El promedio es:", test.promedio(lista))
@@ -40,8 +46,6 @@ def main():
 
     lista = [3.5, -12, 7, 0.8, -3.14, 22, -19.6, 5.5, 13, -0.75, 9.1, 4, -7, 11.11, -2, 6.66, 18, 201, 6001, -0.33, 2.2, -8.8, 0, 10, -1.5, 1.1, -20]
     print(test.ordenarLista(lista))
-
-
 
 
 if __name__ == '__main__':
