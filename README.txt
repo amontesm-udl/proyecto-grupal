@@ -5,7 +5,7 @@ Nombre                  |   Operación
 -----------------------------------------------------------------------------
 Edwin                   | maximo(lista) -> Regresa el número mayor de la lista
 Emmanuel                | minimo(lista) -> Regresa el número menor de la lista
-Patricio                | promedio(lista) -> Regresa el promedio de los números de la lista
+Patricio                | promedio(lista) -> Regresa el promedio de los números de la lista 
 Enzo                    | ordenarLista(lista) -> Regresa la lista ordenada
 Aldo                    | eliminarDuplicados(lista) -> Regresa la lista sin números duplicados
 Juan Antonio            | esPar(numero) -> Regresar True si el número es par False en caso contrario
@@ -23,3 +23,4 @@ Emmanuel Alejandro      | modulo(n1,n2) -> Regresa el módulo o resto de la divi
 David                   | potencia(n1,n2) -> Regresa la potencia de elevar n1 a la potencia n2
 Joseph                  | raizCuadrada(n) -> Regresa la raíz cuadrada de n
 Iván de Jesús           | esPositivo(n) -> Regresa la palabra Positivo o Negativo según el valor de n
+Olga Michelle           | esNegativo(n) -> Regresa la palabra Negativo o Positivo según el valor de n
