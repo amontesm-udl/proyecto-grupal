@@ -13,6 +13,7 @@ class Operaciones:
     #Implementar aqui tu metodo
 
     #Regresar True si el número es par False en caso contrario.
+    
     def esPar(self, numero):
         if numero % 2 == 0:
             return True
@@ -73,6 +74,18 @@ class Operaciones:
 
     def potencia(self,n1,n2):
         return n1**n2
+    
+    def maximo(self, lista):
+        """
+        Realizar la operacion asignada
+        """
+        if not lista:
+            raise ValueError("La lista no puede estar vacía")
+        mayor = lista[0]
+        for num in lista[1:]:
+            if num > mayor:
+                mayor = num
+        return mayor
 
     def minimo(self, lista):
         """

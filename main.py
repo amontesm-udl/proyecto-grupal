@@ -45,6 +45,10 @@ def main():
 
     test.generarTablaMultiplicar(5)  # Ejemplo con el número 5
 
+    lista = [5, 3, 9, 1, 4, 10, 2, 8]
+    print("La lista es:", lista)
+    print("El número mayor es:", test.maximo(lista))
+
     lista = [5, 3, 9, 1, 4]
     print("La lista es:", lista)
     print("El número menor es:", test.minimo(lista))
