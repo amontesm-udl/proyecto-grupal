@@ -5,7 +5,7 @@ def main():
     test = Operaciones()
     print(test.saludoAlejandroMontes())
     
-    #Realiza aqui tu prueba 
+    #Realiza aqui tu prueba.
     numero = 4
     print(f"¿{numero} es par?:",test.esPar(numero))
     

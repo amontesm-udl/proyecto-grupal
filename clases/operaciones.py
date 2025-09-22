@@ -7,7 +7,7 @@ class Operaciones:
         return "Mi nombre es Juan Antonio Montalvo Ramirez " + self.alejandroMontes
 
     #Implementar aqui tu metodo
-    #Regresar True si el número es par False en caso contrario
+    #Regresar True si el número es par False en caso contrario.
     def esPar(self, numero):
         if numero % 2 == 0:
             return True
