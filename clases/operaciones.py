@@ -85,6 +85,10 @@ class Operaciones:
             if num < menor:
                 menor = num
         return menor
+    
+
+    def reemplazarEspacios( self, texto: str, caracter: str):
+        return texto.replace(' ', caracter)
 
     
     def ordenarLista(self, lista):
