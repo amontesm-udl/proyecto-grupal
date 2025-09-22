@@ -1,3 +1,5 @@
+import math
+
 class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
@@ -5,7 +7,17 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
-    # Implementar aqui tu metodo
+
+    #Implementar aqui tu metodo
+    def raizCuadrada(n):
+        return math.sqrt(n)
+
+    '''
+    def operacionAsignada(self):
+        #Realizar la operacion asignada
+    ''' 
+
+
     def generarTablaMultiplicar(self, numero: int):
         #Imprime la tabla de multiplicar del número indicado (del 1 al 10).
         print(f"\nTabla de multiplicar del {numero}:")
@@ -35,6 +47,7 @@ class Operaciones:
     
     def ordenarLista(self, lista):
         return sorted(lista)
+
 
 
 
