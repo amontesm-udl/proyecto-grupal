@@ -7,12 +7,11 @@ def main():
     
     #Realiza aqui tu prueba 
     
-    # Lista de 10 números 
-    numeros = [15, 1, 2, 3, 4, 5, -6, 41, 10, 15]
-
-    print("\n=== Prueba de 10 números ===")
-    for n in numeros:
-        print(f"{n}: {test.esImpar(n)}")
+     # Prueba con un número par
+    print(f"10: {test.esImpar(10)}")   
+    
+    # Prueba con un número impar
+    print(f"7: {test.esImpar(7)}")    
     
 if __name__ == '__main__':
     main()
