@@ -6,7 +6,12 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
-    #Implementar aqui tu metodo
+    # Implementar aqui tu metodo
+    def suma(self, n1, n2):
+        """
+        Regresa la suma de dos números
+        """
+        return n1 + n2
 
     def minimo(self, lista):
         """
@@ -20,7 +25,6 @@ class Operaciones:
                 menor = num
         return menor
 
-    
     def ordenarLista(self, lista):
         return sorted(lista)
 
