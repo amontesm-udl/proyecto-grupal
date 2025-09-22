@@ -6,7 +6,7 @@ def main():
     print(test.saludoAlejandroMontes())
     
     #Realiza aqui tu prueba 
-    resultado = test.restaEnriqueVelez(10, 4)
+    resultado = test.resta(10, 4)
     print(f"La resta de 10 - 4 es: {resultado}")
     
     
