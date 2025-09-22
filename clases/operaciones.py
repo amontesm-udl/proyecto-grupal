@@ -7,9 +7,14 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     #Implementar aqui tu metodo
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
+    def eliminarDuplicados(self, lista):
+        listaSinDuplicados = []
+        vistos = set()
+        for elemento in lista:
+            if elemento not in vistos:
+                listaSinDuplicados.append(elemento)
+                vistos.add(elemento)
+        return listaSinDuplicados
+
 
 
