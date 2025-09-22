@@ -23,3 +23,4 @@ Emmanuel Alejandro      | modulo(n1,n2) -> Regresa el módulo o resto de la divi
 David                   | potencia(n1,n2) -> Regresa la potencia de elevar n1 a la potencia n2
 Joseph                  | raizCuadrada(n) -> Regresa la raíz cuadrada de n
 Iván de Jesús           | esPositivo(n) -> Regresa la palabra Positivo o Negativo según el valor de n
+Olga Michelle           | esNegativo(n) -> Regresa la palabra Negativo o Positivo según el valor de n
