@@ -12,4 +12,7 @@ class Operaciones:
         #Realizar la operacion asignada
     ''' 
 
+    def reemplazarEspacios( self, texto: str, caracter: str):
+        return texto.replace(' ', caracter)
+
 
