@@ -15,11 +15,16 @@ def main():
 
     print(test.potencia(2,3))
     
+    #Realiza aqui tu prueba.
+    numero = 4
+    print(f"¿{numero} es par?:",test.esPar(numero))
+
     # Prueba con un número par
     print(f"10: {test.esImpar(10)}")   
     
     # Prueba con un número impar
     print(f"7: {test.esImpar(7)}")    
+
     
     # Realiza aqui tu prueba
     lista = [10, 20, 30, 40, 50]

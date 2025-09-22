@@ -11,6 +11,15 @@ class Operaciones:
 
 
     #Implementar aqui tu metodo
+
+    #Regresar True si el número es par False en caso contrario.
+    def esPar(self, numero):
+        if numero % 2 == 0:
+            return True
+        else:
+            return False
+
+
     def esImpar(self, numero: int) -> bool:
         #Regresa True si el número es impar, False en caso contrario.
             
