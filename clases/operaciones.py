@@ -10,3 +10,5 @@ class Operaciones:
         palabra = palabra.lower()
         palabras = texto.split()
         return palabras.count(palabra)
+
+
