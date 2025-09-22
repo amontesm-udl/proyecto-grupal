@@ -6,7 +6,6 @@ def raizCuadrada(n):
 
 def main():
     # No cambiar estas lineas
-
     test = Operaciones()
     print(test.saludoAlejandroMontes())
 
@@ -16,18 +15,16 @@ def main():
 
     print(test.potencia(2,3))
     
+    # Realiza aqui tu prueba
+    lista = [10, 20, 30, 40, 50]
+    print("El promedio es:", test.promedio(lista))
 
-    # Realiza aquí tu prueba
     repeticiones = test.contarPalabraEnTexto("hola mundo hola", "hola")
     print(f"Las palabras que se repiten son {repeticiones}")
 
-
-
-    #Realiza aqui tu prueba 
     resultado = test.resta(10, 4)
     print(f"La resta de 10 - 4 es: {resultado}")
-    
-    
+   
 
     resultado = test.eliminarDuplicados([1,2,2,3,4,5,6,7,8,8,9,10])
     print("La lista de números sin duplicados es:", resultado)
@@ -48,5 +45,4 @@ def main():
 
 
 if __name__ == '__main__':
-
     main()

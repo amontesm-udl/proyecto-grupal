@@ -1,4 +1,6 @@
+import numpy as np
 import math
+
 
 class Operaciones:
     def __init__(self):
@@ -8,20 +10,19 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
 
+    # Implementar aqui tu metodo
+    def promedio(self, lista):
+        return np.average(lista)
+
     def contarPalabraEnTexto(self, texto, palabra):
         texto = texto.lower()
         palabra = palabra.lower()
         palabras = texto.split()
         return palabras.count(palabra)
 
-
-    # Implementar aqui tu metodo
     def resta(self, n1, n2):
         # Realizar la operación asignada (resta de dos números)
         return n1 - n2
-
-
-    #Implementar aqui tu metodo
 
     def eliminarDuplicados(self, lista):
         listaSinDuplicados = []
@@ -40,9 +41,6 @@ class Operaciones:
     def operacionAsignada(self):
         #Realizar la operacion asignada
     ''' 
-
-
-
 
     def generarTablaMultiplicar(self, numero: int):
         #Imprime la tabla de multiplicar del número indicado (del 1 al 10).
