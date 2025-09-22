@@ -5,16 +5,20 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+    # Implementar aqui tu metodo
+    def generarTablaMultiplicar(self, numero: int):
+        #Imprime la tabla de multiplicar del número indicado (del 1 al 10).
+        print(f"\nTabla de multiplicar del {numero}:")
+        for i in range(1, 11):
+            resultado = numero * i
+            print(f"{numero} x {i} = {resultado}")
 
     def multiplica(self, n1, n2):
         # Realizar la operación asignada
         return n1 * n2
 
-   #Implementar aqui tu metodo
-
     def potencia(self,n1,n2):
         return n1**n2
-
 
     def minimo(self, lista):
         """
@@ -35,4 +39,3 @@ class Operaciones:
 
 
         
-

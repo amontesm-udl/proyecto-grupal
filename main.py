@@ -11,6 +11,8 @@ def main():
 
     print(test.potencia(2,3))
     
+    test.generarTablaMultiplicar(5)  # Ejemplo con el número 5
+
     lista = [5, 3, 9, 1, 4]
     print("La lista es:", lista)
     print("El número menor es:", test.minimo(lista))
