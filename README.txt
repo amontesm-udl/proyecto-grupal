@@ -5,7 +5,7 @@ Nombre                  |   Operación
 -----------------------------------------------------------------------------
 Edwin                   | maximo(lista) -> Regresa el número mayor de la lista
 Emmanuel                | minimo(lista) -> Regresa el número menor de la lista
-Patricio                | promedio(lista) -> Regresa el promedio de los números de la lista #se realizo exitosamente
+Patricio                | promedio(lista) -> Regresa el promedio de los números de la lista 
 Enzo                    | ordenarLista(lista) -> Regresa la lista ordenada
 Aldo                    | eliminarDuplicados(lista) -> Regresa la lista sin números duplicados
 Juan Antonio            | esPar(numero) -> Regresar True si el número es par False en caso contrario
