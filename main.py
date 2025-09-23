@@ -45,7 +45,5 @@ def main():
     print("El número -5 es:", test.esPositivo(-5))
 
 
-
-
 if __name__ == '__main__':
     main()
