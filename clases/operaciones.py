@@ -10,6 +10,24 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
 
+    #Implementar aqui tu metodo
+
+    #Regresar True si el número es par False en caso contrario.
+    def esPar(self, numero):
+        if numero % 2 == 0:
+            return True
+        else:
+            return False
+
+
+    def esImpar(self, numero: int) -> bool:
+        #Regresa True si el número es impar, False en caso contrario.
+            
+        if numero % 2 == 0:
+            return False
+        else:
+            return True
+
     # Implementar aqui tu metodo
     def promedio(self, lista):
         return np.average(lista)

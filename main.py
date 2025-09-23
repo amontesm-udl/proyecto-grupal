@@ -15,6 +15,17 @@ def main():
 
     print(test.potencia(2,3))
     
+    #Realiza aqui tu prueba.
+    numero = 4
+    print(f"¿{numero} es par?:",test.esPar(numero))
+
+    # Prueba con un número par
+    print(f"10: {test.esImpar(10)}")   
+    
+    # Prueba con un número impar
+    print(f"7: {test.esImpar(7)}")    
+
+    
     # Realiza aqui tu prueba
     lista = [10, 20, 30, 40, 50]
     print("El promedio es:", test.promedio(lista))
@@ -43,7 +54,6 @@ def main():
 
     print("El número 10 es:", test.esPositivo(10))
     print("El número -5 es:", test.esPositivo(-5))
-
 
 if __name__ == '__main__':
     main()
