@@ -3,6 +3,12 @@ import math
 
 
 class Operaciones:
+    def serieFibonacci(self, n):
+        a, b = 0, 1
+        while a <= n:
+            print(a, end=" ")
+            a, b = b, a + b
+        print()
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
 
@@ -11,6 +17,15 @@ class Operaciones:
 
 
     #Implementar aqui tu metodo
+
+        def serieFibonacci(self, n):
+            a, b = 0, 1
+            while a <= n:
+                print(a, end=" ")
+                a, b = b, a + b
+            print()
+
+    
 
     #Regresar True si el número es par False en caso contrario.
     def esPar(self, numero):

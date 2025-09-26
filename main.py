@@ -30,6 +30,10 @@ def main():
     lista = [10, 20, 30, 40, 50]
     print("El promedio es:", test.promedio(lista))
 
+    # Prueba de la serie Fibonacci hasta n=20
+    print("Serie Fibonacci hasta 20:")
+    test.serieFibonacci(20)
+
     repeticiones = test.contarPalabraEnTexto("hola mundo hola", "hola")
     print(f"Las palabras que se repiten son {repeticiones}")
 
