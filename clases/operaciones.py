@@ -34,7 +34,7 @@ class Operaciones:
 
     def operacionAsignada(self):
         #Realizar la operacion asignada
-    ''' 
+    
     def esImpar(self, numero):
         
         if numero % 2 != 0:
