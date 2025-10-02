@@ -5,9 +5,10 @@ def main():
     # No cambiar estas lineas
     test = Operaciones()
     print(test.saludoAlejandroMontes())
-
-    # Realiza aqui tu prueba
-   
+    
+    lista_numeros = [5, 9, 3, 19, 23, 1]
+    print("Lista ordenada = ", test.ordenarLista(lista_numeros))
+     
 
 
 if __name__ == '__main__':
