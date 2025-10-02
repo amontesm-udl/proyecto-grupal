@@ -7,6 +7,7 @@ def main():
     print(test.saludoAlejandroMontes())
 
     # Realiza aqui tu prueba
+    print(test.esImpar(5))
    
 
 

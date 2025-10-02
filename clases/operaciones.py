@@ -13,6 +13,13 @@ class Operaciones:
     def operacionAsignada(self):
         #Realizar la operacion asignada
     ''' 
+    def esImpar(self, numero):
+        
+        if numero % 2 != 0:
+            return "El número es impar."
+        else:
+           return "El número  no es impar (es par)."
+    
 
     
 
