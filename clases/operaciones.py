@@ -9,6 +9,19 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+    
+    def maximo(self, lista):
+        #Realizar la operacion asignada
+
+        if not lista:  # si la lista está vacía
+            return None
+
+        mayor = lista[0]
+        for numero in lista:
+            if numero > mayor:
+                mayor = numero
+        return mayor
+     
 
     def operacionAsignada(self):
         #Realizar la operacion asignada

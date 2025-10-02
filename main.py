@@ -14,6 +14,14 @@ def main():
 
     print(test.eliminarDuplicados([1,2,2,3,4,5,5,8,9,6,6]))
 
+    numeros = [4, 10, 2, 33, 7]
+    resultado = test.maximo(numeros)
+
+    if resultado is not None:
+        print("El número mayor es:", resultado)
+    else:
+        print("La lista está vacía")
+   
 
 if __name__ == '__main__':
     main()
