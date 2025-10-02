@@ -32,8 +32,10 @@ class Operaciones:
         return mayor
      
 
-    def operacionAsignada(self):
+    def minimo(self, lista):
         #Realizar la operacion asignada
+        return min(lista)
+
     
     def esImpar(self, numero):
         

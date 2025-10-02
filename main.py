@@ -10,6 +10,8 @@ def main():
     print("Lista ordenada = ", test.ordenarLista(lista_numeros))
      
     # Realiza aqui tu prueba
+    l = [10, -3, -10, 0, -60, 78]
+    print(f"El número menor de la lista {l} es: {test.minimo(l)}")
      
     lista = [10, 20, 30, 40]; resultado = test.promedio(lista); print(f"El promedio de {lista} es: {resultado}")
 
