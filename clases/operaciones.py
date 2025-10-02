@@ -8,11 +8,10 @@ class Operaciones:
 
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
-
-    '''
-    def operacionAsignada(self):
-        #Realizar la operacion asignada
-    ''' 
-
     
+    def espar(self,numero):
 
+        if numero % 2 == 0:
+            return "El número es par."
+        else:
+            return "El número no es par."
