@@ -10,6 +10,8 @@ def main():
     print("Lista ordenada = ", test.ordenarLista(lista_numeros))
      
     # Realiza aqui tu prueba
+     
+    lista = [10, 20, 30, 40]; resultado = test.promedio(lista); print(f"El promedio de {lista} es: {resultado}")
 
     print(test.esImpar(5))
    
@@ -28,3 +30,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

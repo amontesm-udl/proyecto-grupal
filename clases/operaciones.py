@@ -9,6 +9,13 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+    def promedio(self, lista):
+        """
+        Calcula el promedio de los números en una lista.
+        """
+        if len(lista) == 0:
+            return 0  # evitar división entre cero
+        return sum(lista) / len(lista)
     def ordenarLista(self, lista):
         return sorted(lista)
     
