@@ -9,6 +9,8 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+    def ordenarLista(self, lista):
+        return sorted(lista)
     
     def maximo(self, lista):
         #Realizar la operacion asignada

@@ -6,6 +6,9 @@ def main():
     test = Operaciones()
     print(test.saludoAlejandroMontes())
     
+    lista_numeros = [5, 9, 3, 19, 23, 1]
+    print("Lista ordenada = ", test.ordenarLista(lista_numeros))
+     
     # Realiza aqui tu prueba
 
     print(test.esImpar(5))
