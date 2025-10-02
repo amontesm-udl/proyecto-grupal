@@ -9,6 +9,17 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+
+    def operacionAsignada(self):
+        #Realizar la operacion asignada
+    ''' 
+    def esImpar(self, numero):
+        
+        if numero % 2 != 0:
+            return "El número es impar."
+        else:
+           return "El número  no es impar (es par)."
+
     
     def espar(self,numero):
 
@@ -16,7 +27,6 @@ class Operaciones:
             return "El número es par."
         else:
             return "El número no es par."
-
 
     
     def eliminarDuplicados(self, lista):
