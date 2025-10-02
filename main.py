@@ -8,9 +8,7 @@ def main():
 
     # Realiza aqui tu prueba
      
-    lista = [10, 20, 30, 40]
-    resultado = test.promedio(lista)
-    print(f"El promedio de {lista} es: {resultado}")
+    lista = [10, 20, 30, 40]; resultado = test.promedio(lista); print(f"El promedio de {lista} es: {resultado}")
    
 
 
