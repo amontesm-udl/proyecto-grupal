@@ -7,7 +7,8 @@ def main():
     print(test.saludoAlejandroMontes())
     
     # Realiza aqui tu prueba
-    print(test.eliminarDuplicados())
+    lista = [1,2,2,3,4,5,5,8,9,6,6]
+    print(test.eliminarDuplicados(lista))
 
 
 if __name__ == '__main__':
