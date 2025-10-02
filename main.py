@@ -7,6 +7,8 @@ def main():
     print(test.saludoAlejandroMontes())
     
     # Realiza aqui tu prueba
+    l = [10, -3, -10, 0, -60, 78]
+    print(f"El número menor de la lista {l} es: {test.minimo(l)}")
 
     print(test.esImpar(5))
    

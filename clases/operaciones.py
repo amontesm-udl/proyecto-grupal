@@ -10,9 +10,10 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
 
-    def operacionAsignada(self):
+    def minimo(self, lista):
         #Realizar la operacion asignada
-    ''' 
+        return min(lista)
+
     def esImpar(self, numero):
         
         if numero % 2 != 0:
