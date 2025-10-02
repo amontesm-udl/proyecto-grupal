@@ -10,7 +10,7 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
 
     
-    def operacionAsignada(self, lista):
+    def maximo(self, lista):
         #Realizar la operacion asignada
 
         if not lista:  # si la lista está vacía

@@ -9,7 +9,7 @@ def main():
     # Realiza aqui tu prueba
 
     numeros = [4, 10, 2, 33, 7]
-    resultado = test.operacionAsignada(numeros)
+    resultado = test.maximo(numeros)
 
     if resultado is not None:
         print("El número mayor es:", resultado)
